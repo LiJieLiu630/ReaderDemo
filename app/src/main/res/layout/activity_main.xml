@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget.ResideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_pancel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liulije.readerdemo.MainActivity">
+
+    <include layout="@layout/menu_item"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/tool_bar_layout" />
+
+
+        <RelativeLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:visibility="visible"></RelativeLayout>
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/bnv_main"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:background="?attr/colorAccent"
+            android:paddingBottom="0dp"
+            app:itemIconTint="@color/colorTabLine"
+            app:itemTextColor="@color/colorTabLine"
+            app:menu="@menu/bottommenu">
+
+        </android.support.design.widget.BottomNavigationView>
+
+
+    </LinearLayout>
+</widget.ResideLayout>

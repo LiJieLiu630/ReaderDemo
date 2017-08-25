@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_one"
+        android:icon="@mipmap/iv_main_my_select"
+        android:title="书架" />
+
+    <item
+        android:id="@+id/navigation_two"
+        android:icon="@mipmap/iv_main_my_select"
+        android:title="书城" />
+
+    <item
+        android:id="@+id/navigation_three"
+        android:icon="@mipmap/iv_main_my_select"
+        android:title="社区" />
+
+    <item
+        android:id="@+id/navigation_four"
+        android:icon="@mipmap/iv_main_my_select"
+        android:title="我的" />
+</menu>

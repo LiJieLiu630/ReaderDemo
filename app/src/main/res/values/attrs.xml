@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--原始的Textview-->
+    <item name="id_source_textview" type="id" />
+    <!--收起展开按钮的TextView-->
+    <item name="id_expand_textview" type="id" />
+
+    <declare-styleable name="ExpandTextView">
+        <!--允许最大行数-->
+        <attr name="maxExpandLines" format="integer" />
+        <attr name="duration" format="integer" />
+    </declare-styleable>
+</resources>

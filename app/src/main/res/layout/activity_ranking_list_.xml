@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e8e8e8"
+    android:orientation="vertical"
+    tools:context="com.liulije.readerdemo.book.activity.RankingList_Activity">
+
+    <include layout="@layout/item_title_back" />
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/xev_rankinglist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"></com.jcodecraeer.xrecyclerview.XRecyclerView>
+</LinearLayout>
