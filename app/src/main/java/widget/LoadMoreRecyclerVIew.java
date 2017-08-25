@@ -16,7 +16,7 @@ import com.liulije.readerdemo.R;
 /**
  * @类名称: CLASS
  * @类描述:
- * @创建人：刘丽杰
+ * @创建人：LiuL1Jie
  * @创建时间：2017/8/10 9:21
  * @备注：
  */
